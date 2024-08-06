@@ -63,8 +63,8 @@ button {
   color: #333333;
 }
 
-.feedback-form{
-  display:flex;
+.feedback-form {
+  display: flex;
   flex-direction: column;
   border-radius: 8px;
   padding: 24px;
@@ -72,18 +72,18 @@ button {
   height: 296px;
   background: #fff;
   margin: 0 auto;
- }
- label{
-    display: flex;
-    flex-direction: column;
-    width: 360px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #2e2f42;
- }
-.feedback-form-input{
+}
+label {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.feedback-form-input {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 360px;
@@ -91,7 +91,7 @@ button {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-.feedback-form-message{
+.feedback-form-message {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 360px;
@@ -99,20 +99,20 @@ button {
   resize: none;
   margin-bottom: 16px;
 }
-.feedback-form-submit{
+.feedback-form-submit {
+  border: none;
   border-radius: 8px;
   width: 95px;
   height: 40px;
-  background: #4e75ff;
+  background-color: #4e75ff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   text-align: center;
-  transition: transform 250ms linear;
 }
 .feedback-form-submit:hover,
 .feedback-form-submit:focus {
-  transform: scale(1.05);
+  background-color: #6c8cff;
 }
