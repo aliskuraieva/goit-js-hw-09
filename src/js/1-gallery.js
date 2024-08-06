@@ -106,5 +106,6 @@ new SimpleLightbox('.gallery a', {
   captions: true,
   captionsData: 'alt',
   captionDelay: 250,
-  overlayOpacity: 0.7,
+  overlayOpacity: 0.8,
+  captionsPosition: 'bottom',
 });
