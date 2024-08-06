@@ -63,64 +63,56 @@ button {
   color: #333333;
 }
 
-.feedback-form {
-  display: flex;
+.feedback-form{
+  display:flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-}
-
-label {
-  color: #2e2f42;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-  display: flex;
-  flex-direction: column;
-}
-
-input {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  background: #fff;
+  margin: 0 auto;
+ }
+ label{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+ }
+.feedback-form-input{
+  border: 1px solid #808080;
+  border-radius: 4px;
   width: 360px;
   height: 40px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  border: 1px solid #808080;
   margin-top: 8px;
+  margin-bottom: 8px;
 }
-
-input:hover {
+.feedback-form-message{
+  border: 1px solid #808080;
   border-radius: 4px;
-  border: 1px solid #000;
-}
-textarea {
   width: 360px;
   height: 80px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  border: 1px solid #808080;
+  resize: none;
+  margin-bottom: 16px;
 }
-button {
-  display: inline-flex;
-  padding: 8px 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+.feedback-form-submit{
   border-radius: 8px;
-  background-color: #4e75ff;
-  border: none;
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-top: 16px;
+  color: #ffffff;
+  text-align: center;
+  transition: transform 250ms linear;
 }
-
-button:hover {
-  background-color: #6c8cff;
+.feedback-form-submit:hover,
+.feedback-form-submit:focus {
+  transform: scale(1.05);
 }
